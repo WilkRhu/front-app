@@ -20,28 +20,6 @@ const items: MenuItemType[] = [
       }
     ],
   },
-  {
-    title: 'Auth',
-    icon: { name: 'lock-outline' },
-    children: [
-      {
-        title: 'Login',
-        link: { href: '/auth/login' },
-      },
-      {
-        title: 'Register',
-        link: { href: '/auth/register' },
-      },
-      {
-        title: 'Request Password',
-        link: { href: '/auth/request-password' },
-      },
-      {
-        title: 'Reset Password',
-        link: { href: '/auth/reset-password' },
-      },
-    ],
-  },
 ];
 
 export default items;
