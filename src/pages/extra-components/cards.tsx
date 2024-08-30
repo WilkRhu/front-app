@@ -68,7 +68,7 @@ export default function ChatHistory() {
       setChats((prevChats) => prevChats.filter((chat) => chat.id !== chatId));
 
       // Optionally redirect or update the UI
-      router.push('/chat');
+      router.push('/extra-components/cards');
     } catch (error) {
       console.error('Error closing chat:', error);
     }
